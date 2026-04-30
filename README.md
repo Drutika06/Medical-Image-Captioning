@@ -16,6 +16,13 @@ This project moves beyond standard CNN-RNN pipelines, utilizing a custom **Memor
 * **Entity-Aware Transformer Decoder:** A custom autoregressive transformer with strict causal masking. It utilizes a Cross-Attention mechanism where the decoder queries BOTH the visual proof (image features) and clinical knowledge (entity embeddings) simultaneously.
 * **Clinical Synthesizer:** A deterministic NLP formatting engine that converts raw AI outputs into readable, human-like clinical impressions.
 
+## 💻 Training Infrastructure & Environment
+To handle the computational overhead of processing high-resolution medical images alongside a heavy Transformer decoder, the model was trained in a high-performance cloud environment:
+* **Compute Environment:** Google Colab Pro
+* **Hardware Accelerator:** NVIDIA T4 Tensor Core GPU (16GB VRAM)
+* **Training Duration:** Trained for **60 Epochs** on the complete ROCO training split.
+* **Optimization Focus:** The training loop was strictly monitored to manage loss convergence and prevent overfitting, ensuring the autoregressive decoder learned complex medical grammar without hallucinating entities not present in the visual features.  
+
 ## ⚙️ How It Works
 1. **Input:** The user selects a radiological scan (X-Ray, CT, MRI, Ultrasound, etc.) via the interactive dashboard.
 2. **Multi-Modal Fusion:** The deep learning model extracts visual patches from the image and aligns them with embedded clinical knowledge.
