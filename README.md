@@ -26,9 +26,15 @@ This project moves beyond standard CNN-RNN pipelines, utilizing a custom **Memor
 4. **Entity-Aware Captioning:** The Transformer precisely detects clinical entities and synthesizes an **AI-generated caption** that is strictly grounded in those identified entities, ensuring zero hallucinations.
 5. **Report Generation:** The system outputs a comprehensive, structured radiology report featuring a Clinical Impression, detected entities with medical explanations, and a simplified patient-friendly translation.
 
+<img width="1919" height="852" alt="image" src="https://github.com/user-attachments/assets/5c88ab8f-942e-46c4-86fa-533eb2b78dca" />
+
+
 ## 🗂️ Dataset
 * **Dataset Name:** ROCO (Radiology Objects in COntext) Dataset
 * **Link:** [Kaggle - ROCO Dataset](https://www.kaggle.com/datasets/drutikapidikiti/dataset-roco)
+
+<img width="837" height="767" alt="image" src="https://github.com/user-attachments/assets/85bcc67d-e522-4c00-8f6b-ce6379015015" />
+
 * **Description:** A large-scale medical dataset sourced from PubMed articles, containing diverse imaging modalities and their corresponding clinical captions/entities.
 * **Focus:** Optimized for precision over recall to prioritize clinical safety and eliminate AI hallucinations.
 
