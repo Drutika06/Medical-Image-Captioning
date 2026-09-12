@@ -3,6 +3,18 @@
 ## 📌 Overview
 This project is an advanced **Entity-Aware Medical Image Captioning System** designed to act as a rapid triage assistant for radiologists. By combining deep visual feature extraction with the domain-specific linguistic knowledge of **PubMedBERT**, this model does not just generate generic captions; it actively identifies critical clinical entities (pathologies, anatomical structures) and synthesizes them into highly structured, medically accurate diagnostic reports.
 
+## 📄 Research Publication
+
+This project was published as a research article in **IEEE Access**.
+
+**Paper:** *Entity-Aware Medical Image Captioning*
+
+- 📑 **ResearchGate:** [View Publication](https://www.researchgate.net/publication/410805385_Entity-Aware_Medical_Image_Captioning)
+- 🔗 **DOI:** [10.1109/ACCESS.2026.3716698](https://doi.org/10.1109/ACCESS.2026.3716698)
+- 📖 **Journal:** IEEE Access, Volume 14, pp. 114457–114481
+- 🏛️ **Publisher:** IEEE
+- 📜 **License:** CC BY-NC-ND 4.0
+
 ## 🎯 Objectives
 * **Precision Extraction:** Identify specific medical entities directly from radiological scans, ignoring dataset noise and artifacts.
 * **Clinical Synthesis:** Automatically generate grammatically correct, professional clinical sentences from extracted entities.
